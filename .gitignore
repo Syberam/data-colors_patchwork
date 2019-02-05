@@ -1,2 +1,3 @@
 patchwork_venv
 **/__pycache__
+**/db_dqlite3
