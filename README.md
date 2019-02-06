@@ -9,20 +9,16 @@ This project is made with Django to move fast.
 - The data patchwork is base on the hundred phone number around a random student.
 
 ```
-<p>
 	Next step :
-	<ul>
-		<li>Add some filter to choose the base data to generate colors</li>
-		<li>Add a field to create your own color algorythm</li>
-	</ul>
-</p>
+		• Add some filter to choose the base data to generate colors
+		• Add a field to create your own color algorythm
 ```
 
 ### 2# An app base on Ethereum blockchain
 - The utility goal is to see the 100 last block
 - It is also a good pedagogical app to see how ethereum blocks are différent.
 
-```
+'''
 <p>
 	Next step :
 	<ul>
@@ -32,7 +28,7 @@ This project is made with Django to move fast.
 		<li>Add a field to create your own color algorythm</li>
 	</ul>
 </p>
-```
+'''
 
 ### How contribute
 - extend the idea to other source of data
