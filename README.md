@@ -17,10 +17,12 @@ This project is made with Django to move fast.
 - It is also a good pedagogical app to see how ethereum blocks are différent.
 
 &nbsp;&nbsp;####Next step :
-&nbsp;&nbsp;&nbsp;- Add a form to find a specific block 
-&nbsp;&nbsp;&nbsp;- Change the color algorythm
-&nbsp;&nbsp;&nbsp;- Add some filter to choose the base data to generate colors
-&nbsp;&nbsp;&nbsp;- Add a field to create your own color algorythm
+<ul>
+&nbsp;&nbsp;&nbsp;<li>- Add a form to find a specific block</li>
+&nbsp;&nbsp;&nbsp;<li>- Change the color algorythm</li>
+&nbsp;&nbsp;&nbsp;<li>- Add some filter to choose the base data to generate colors</li>
+&nbsp;&nbsp;&nbsp;<li>- Add a field to create your own color algorythm</li>
+</ul>
 
 ### How contribute
 - extend the idea to other source of data
