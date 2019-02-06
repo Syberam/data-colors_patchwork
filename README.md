@@ -8,21 +8,27 @@ This project is made with Django to move fast.
 - The utility goal is to find a phone number owner.
 - The data patchwork is base on the hundred phone number around a random student.
 
-&nbsp;&nbsp;####Next step :
-&nbsp;&nbsp;&nbsp;- Add some filter to choose the base data to generate colors
-&nbsp;&nbsp;&nbsp;- Add a field to create your own color algorythm
+<p>
+	Next step :
+	<ul>
+		<li>Add some filter to choose the base data to generate colors</li>
+		<li>Add a field to create your own color algorythm</li>
+	</ul>
+</p>
 
-### 1# An app base on Ethereum blockchain
+### 2# An app base on Ethereum blockchain
 - The utility goal is to see the 100 last block
 - It is also a good pedagogical app to see how ethereum blocks are différent.
 
-&nbsp;&nbsp;####Next step :
-<ul>
-&nbsp;&nbsp;&nbsp;<li>- Add a form to find a specific block</li>
-&nbsp;&nbsp;&nbsp;<li>- Change the color algorythm</li>
-&nbsp;&nbsp;&nbsp;<li>- Add some filter to choose the base data to generate colors</li>
-&nbsp;&nbsp;&nbsp;<li>- Add a field to create your own color algorythm</li>
-</ul>
+<p>
+	Next step :
+	<ul>
+		<li>- Add a form to find a specific block</li>
+		<li>- Change the color algorythm</li>
+		<li>- Add some filter to choose the base data to generate colors</li>
+		<li>- Add a field to create your own color algorythm</li>
+	</ul>
+</p>
 
 ### How contribute
 - extend the idea to other source of data
