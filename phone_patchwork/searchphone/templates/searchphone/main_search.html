@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'searchphone/style.css' %}">
+    </head>
+    <body>
+        <h1> WHO IS THAT PHONE OWNER ? </h1>
+            
+            <main>
+                <div class="search">
+                    <form method="post">{% csrf_token %}
+                        {{ form.as_p }}
+                        <input type="submit" value="Find Owner">
+                    </form>
+                </div>
+                <div class="answers">
+                {% if ret %}
+                    {% for student in students %}
+                        <div class="student">
+                            <h2>{{student.login}}</h2>
+                            <img class="avatar" src={{ student.image_url }}>
+                            <div class="student_infos">
+                                <p>First name : {{ student.first_name }}</p>
+                                <p>Last name : {{ student.last_name|upper }}</p>
+                                <p>Mail : {{ student.mail }}</p>
+                                <p>Phone : {{ student.phone }}</p>
+                            </div>
+                        </div>
+                    {% empty %}
+                        <p class="alert">This number doesn't match</p>
+                    {% endfor %}
+                {% endif %}
+                </div>
+            
+            </main>
+            <div class="patchwork">
+                    {% for color in colors %}
+                        <div style="background-image:
+                                        linear-gradient(222deg, rgba({{color.0}},{{color.1}},0,0.8), rgba({{color.3}},{{color.4}},{{color.1}},0.8) 70%),
+                                        linear-gradient(127deg, rgba({{color.0}},{{color.4}},{{color.3}},0.8), rgba({{color.2}},{{color.1}},{{color.0}},0.8) 70%),
+                                        linear-gradient(330deg, rgba({{color.0}},{{color.2}},{{color.4}},0.8), rgba({{color.1}},{{color.3}},{{color.2}},0.8) 70%);">
+                        </div>
+                    {% endfor %}
+            </div>
+</body>
+</html>

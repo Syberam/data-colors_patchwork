@@ -1,0 +1,15 @@
+<html>
+    <h1>TEST</h1>
+    <div style="margin:auto">
+    {% for color in colors %}
+        <div style="margin:0;display:inline-block;width:5%;height:5%;
+        background-image:
+        linear-gradient(222deg, rgba({{color.0}},{{color.1}},0,0.8), rgba({{color.3}},{{color.4}},{{color.5}},0.8) 70%),
+        linear-gradient(127deg, rgba({{color.5}},{{color.4}},{{color.3}},0.8), rgba({{color.2}},{{color.1}},{{color.0}},0.8) 70%),
+        linear-gradient(330deg, rgba({{color.0}},{{color.2}},{{color.4}},0.8), rgba({{color.1}},{{color.3}},{{color.5}},0.8) 70%);
+        "
+        
+        ></div>
+    {% endfor %}
+</div>
+</html>

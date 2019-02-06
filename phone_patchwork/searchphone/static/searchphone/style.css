@@ -1,0 +1,102 @@
+html {
+    height:99%;
+    width:100%;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+body {
+    height:95%;
+    width:99%;
+}
+
+.answer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    height:20%;
+    margin:auto;
+}
+.student{
+    display: inline-block;
+    border:1px solid black;
+    height:100%;
+    width:12%;
+    margin:1%;
+    text-align: center;
+    background:rgba(255,255,255,0.8);
+    box-shadow: 2px 2px 2px black;
+}
+
+.student:hover{
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.student img{
+    width:100px;
+    margin:auto;
+    text-align: center;
+}
+
+.patchwork{
+    position: fixed;
+    border:3px solid red;
+    top:0;
+    left:-1%;
+    margin:auto;
+    width:110%;
+    z-index:0;
+
+}
+
+.patchwork div{
+    display:inline-block;
+    width:5em;
+    height:5em;
+    margin:-0.2%;
+}
+
+main{
+    position:sticky;
+    background:none;
+    z-index: 300;
+}
+
+.search, h1{
+    position:sticky;
+    text-align:center;
+    top:0;
+    margin:auto;
+    z-index: 301;
+    background:rgba(255,255,255,0.8);
+    padding:1%;
+}
+
+.alert{
+    position:sticky;
+    color:white;
+    font-weight: bold;
+    background:red;
+}
+
+.menu{
+    margin:auto;
+    margin-top:10%;
+    width:20%;
+    text-align:center;
+    background:lightblue;
+    padding:1%;
+    font-size: 2em;
+}
+
+.menu div{
+    margin:1%;
+    background:mediumaquamarine;
+    box-shadow: 1px 1px 1px black;
+}
+
+.menu div:hover{
+    background:lightcyan;
+    box-shadow: 3px 3px 2px black;
+}
