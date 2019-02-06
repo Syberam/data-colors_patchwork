@@ -1,0 +1,15 @@
+<h1>ETH PATCHWORK</h1>
+
+<p>Ethereum blockchain have {{ nb_blocks }} blocks</p>
+<div class="searchBlock">
+
+</div>
+<div>
+    <p>Last block is :</p>
+    {% for block in blocks %}
+        <div style="background:#{{block.gasUsed}}">
+            <p>{{ block }}</p>
+        </div>
+    {% endfor %}
+    <p>{{ balance }}</p>
+</div>
