@@ -18,17 +18,13 @@ This project is made with Django to move fast.
 - The utility goal is to see the 100 last block
 - It is also a good pedagogical app to see how ethereum blocks are différent.
 
-'''
-<p>
+```
 	Next step :
-	<ul>
-		<li>Add a form to find a specific block</li>
-		<li>Change the color algorythm</li>
-		<li>Add some filter to choose the base data to generate colors</li>
-		<li>Add a field to create your own color algorythm</li>
-	</ul>
-</p>
-'''
+		• Add a form to find a specific block
+		• Change the color algorythm
+		• Add some filter to choose the base data to generate colors
+		• Add a field to create your own color algorythm
+```
 
 ### How contribute
 - extend the idea to other source of data
