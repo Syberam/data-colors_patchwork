@@ -1,5 +1,5 @@
 # This is a usefull open project
-
+### Goal : how color data
 It consists of using generate color patchworks with differente source of data.
 This project is made with Django to move fast.
 
