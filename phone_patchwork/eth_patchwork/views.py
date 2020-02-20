@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 
 def ethTestView(request):
-    infura_provider = HTTPProvider('https://ropsten.infura.io')
+    infura_provider = HTTPProvider('https://ropsten.infura.io/v3/6a208bc683604c1bb09035a2813c5ef3')
     web3 = Web3(infura_provider)
     nb_blocks = web3.eth.blockNumber
     context={}
