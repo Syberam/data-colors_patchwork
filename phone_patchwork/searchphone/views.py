@@ -53,6 +53,7 @@ class SearchView(FormView):
 		students = Student.objects.exclude(phone__isnull=True).exclude(phone__exact='')[number:number + 1000]
 		cnt = len(students)
 		if (cnt != 1000):
+			# student db need to be feed
 			number = number - (1000 - cnt)
 			students = Student.objects.exclude(phone__isnull=True).exclude(phone__exact='')[number:number+1000]
 

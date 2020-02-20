@@ -1,4 +1,6 @@
-# This is a usefull open project
+⚠️ Not maintained ; some request endpoints are obsolete ⚠️
+
+# This is an open project ; the almost useless kind
 ### Goal : how color data
 It consists of using generate color patchworks with differente sources of data.
 This project is made with Django.

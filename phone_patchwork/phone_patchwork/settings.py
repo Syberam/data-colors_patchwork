@@ -125,7 +125,7 @@ STATIC_URL = '/static/'
 
 API_42_CONFIG = {
     'client_ID' : 'ba080f64b6bea0941942813b34719aa57a7c182e29943e5f8c485d16f670cca7',
-    'client_secret' : os.environ['42_secret'],
+    'client_secret' : os.environ['KEY42SECRET'],
 }
 
 USERS_42_DEBUG = [
@@ -187,7 +187,7 @@ USERS_42_DEBUG = [
         'name':'C-----A',
         'firstname':'Hamza',
         'login':'h-----a',
-        'phone':'+33 6 21 16 -- --,
+        'phone':'+33 6 21 16 -- --',
     },
     {
         'name':'BONNEFON',
